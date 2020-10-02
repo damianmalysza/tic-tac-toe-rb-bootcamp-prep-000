@@ -21,7 +21,7 @@ def input_to_index(input)
   input.to_i - 1
 end
 
-def position_taken?(board,position)
+def position_taken?(board,index)
   if board[index] == " " || board[index] == "" || board[index] == nil
     false
   else
