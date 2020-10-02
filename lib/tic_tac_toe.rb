@@ -75,3 +75,8 @@ def won?(board)
   end
   false
 end
+
+def full?(board)
+  board.all?{|i| i=="X"||i=="O"}
+
+end
