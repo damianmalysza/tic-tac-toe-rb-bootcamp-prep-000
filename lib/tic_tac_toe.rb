@@ -22,7 +22,11 @@ def input_to_index(input)
 end
 
 def position_taken?(board,position)
-  board[position] != " " || board[position] != ""
+  if board[index] == " " || board[index] == "" || board[index] == nil
+    false
+  else
+    return true
+  end
 end
 
 def valid_move?(board,input)
