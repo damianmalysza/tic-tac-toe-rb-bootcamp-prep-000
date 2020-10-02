@@ -101,5 +101,5 @@ def winner(board)
 end
 
 def play(board)
-  
+  while !over?(board)
 end
