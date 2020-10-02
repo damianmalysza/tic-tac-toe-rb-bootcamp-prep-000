@@ -34,5 +34,7 @@ def valid_move?(board,input)
 end
 
 def turn(board)
-
+  puts "What is your move?"
+  input = input_to_index(gets.strip)
+  if valid_move?(board,input)
 end
