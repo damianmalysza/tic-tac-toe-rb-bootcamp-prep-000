@@ -1,0 +1,39 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/damianations/tic-tac-toe-rb-bootcamp-prep-000/lib/tic_tac_toe.rb": [
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        5,
+        5,
+        5,
+        5,
+        5,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null,
+        1,
+        2,
+        null
+      ]
+    },
+    "timestamp": 1601603798
+  }
+}
