@@ -22,5 +22,5 @@ def input_to_index(input)
 end
 
 def position_taken?(board,position)
-  
+
 end
