@@ -30,5 +30,5 @@ def position_taken?(board,index)
 end
 
 def valid_move?(board,input)
-  position_taken?(board,input) || input.between?(0,8)
+  !position_taken?(board,input) || input.between?(0,8)
 end
