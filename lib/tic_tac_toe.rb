@@ -96,7 +96,7 @@ end
 
 def winner(board)
   if won?(board)
-    board[won?(board)[0]]
+    return current_player(board)
   else
     nil
   end
