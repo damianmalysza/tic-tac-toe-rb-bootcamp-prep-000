@@ -99,3 +99,7 @@ def winner(board)
     nil
   end
 end
+
+def play(board)
+  
+end
