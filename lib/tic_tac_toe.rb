@@ -32,3 +32,7 @@ end
 def valid_move?(board,input)
   !position_taken?(board,input) && input.between?(0,8)
 end
+
+def turn(board)
+
+end
